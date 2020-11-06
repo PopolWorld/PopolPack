@@ -1,5 +1,5 @@
-# popolPack
-Datapack pour le Serveur PopolWorld
+# PopolPack
+Datapack pour le serveur Survival de PopolWorld
 
 Fonctionalités :
   - Nouvelles loot_tables pour la pêche
