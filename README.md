@@ -14,7 +14,7 @@ Fonctionalités :
     - Pêche dans les biomes mushrooms
     - Pêche dans les déserts
     - Pêche dans les marais
-    - Pêche dans les mesas
+  - De l'or est pêché en plus dans les mesas
   - Ajout de nouveaux crafts
     - Selle
     - Armures à chevaux
