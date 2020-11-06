@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Et ça restera chez moi !",
+		"description" : "Dépenser une petite fortune pour garder un chunk tout le temps actif",
+		"icon" :
+		{
+			"item" : "minecraft:obsidian"
+		}
+    },
+    "parent" : "minecraft:popolworld/chunk",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+			"trigger" : "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Ici, c'est chez moi !",
+		"description" : "Claim un chunk",
+		"icon" :
+		{
+			"item" : "minecraft:oak_sapling"
+		}
+    },
+    "parent" : "minecraft:popolworld/root",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+			"trigger" : "minecraft:impossible"
+		}
+	}
+}

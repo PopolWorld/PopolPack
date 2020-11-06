@@ -1,0 +1,116 @@
+{
+    "type": "minecraft:fishing",
+    "pools":
+    [
+     {
+       "rolls": 1.0,
+       "entries":
+       [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+           {
+             "function": "minecraft:enchant_with_levels",
+             "levels": 30,
+             "treasure": true
+           }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions":
+          [
+           {
+             "function": "minecraft:set_nbt",
+             "tag": "{Potion:\"minecraft:slow_falling\"}"
+           }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions":
+          [
+           {
+             "function": "minecraft:set_nbt",
+             "tag": "{Potion:\"minecraft:long_slow_falling\"}"
+           }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:shulker_shell",
+          "functions":
+          [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:spectral_arrow",
+          "functions":
+          [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:dragon_breath"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:experience_bottle",
+          "functions":
+          [
+            {
+              "function": "minecraft:set_count",
+              "count":
+              {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+       ]
+     }
+    ]
+  }

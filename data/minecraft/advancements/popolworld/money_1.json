@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Un salaire de prof",
+		"description" : "Posseder un total de 10.000 P",
+		"icon" :
+		{
+			"item" : "minecraft:iron_ingot"
+		}
+	},
+	"parent": "minecraft:popolworld/market",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

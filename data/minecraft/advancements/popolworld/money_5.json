@@ -1,0 +1,20 @@
+{
+	"display" :
+	{
+		"title" : "Meilleur que Mansa Musa",
+		"description" : "Posseder un total de 1.000.000.000.000 P",
+		"frame": "challenge",
+		"icon" :
+		{
+			"item" : "minecraft:netherite_ingot"
+		}
+	},
+	"parent": "minecraft:popolworld/money_4",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "De l'argent !",
+		"description" : "Vendre quelque chose sur le marché",
+		"icon" :
+		{
+			"item" : "minecraft:gold_nugget"
+		}
+	},
+	"parent": "minecraft:popolworld/root",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

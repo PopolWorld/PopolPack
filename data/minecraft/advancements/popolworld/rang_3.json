@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Rang 3",
+		"description" : "Obtenir le rang de ___",
+		"icon" :
+		{
+			"item" : "minecraft:redstone"
+		}
+	},
+	"parent": "minecraft:popolworld/rang_2",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

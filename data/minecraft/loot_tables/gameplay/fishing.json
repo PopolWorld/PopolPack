@@ -1,0 +1,120 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "conditions":
+        [
+          {
+            "condition": "minecraft:location_check",
+            "predicate":
+            {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 25,
+            "quality": 0,
+            "name": "minecraft:gameplay/fishing/junk"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "quality": 5,
+            "name": "minecraft:gameplay/fishing/treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 65,
+            "quality": -5,
+            "name": "minecraft:gameplay/fishing/fish"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions":
+        [
+            {
+              "condition": "minecraft:alternative",
+              "terms":
+              [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate":
+                  {
+                    "biome": "minecraft:badlands"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate":
+                  {
+                    "biome": "minecraft:badlands_plateau"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate":
+                  {
+                    "biome": "minecraft:modified_badlands_plateau"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate":
+                  {
+                    "biome": "minecraft:eroded_badlands"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate":
+                  {
+                    "biome": "minecraft:modified_wooded_badlands_plateau"
+                  }
+                }
+              ]
+            }
+        ],
+        "entries":
+        [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:gameplay/fishing/gold"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions":
+        [
+          {
+            "condition": "minecraft:location_check",
+            "predicate":
+            {
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ],
+        "entries":
+        [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 25,
+            "quality": 5,
+            "name": "minecraft:gameplay/fishing/biomes/end_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 75,
+            "quality": -5,
+            "name": "minecraft:gameplay/fishing/biomes/end_junk"
+          }
+        ]
+      }
+    ]
+  }

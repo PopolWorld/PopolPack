@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Un vrai magnat",
+		"description" : "Posseder un total de 100.000.000 P",
+		"icon" :
+		{
+			"item" : "minecraft:diamond"
+		}
+	},
+	"parent": "minecraft:popolworld/money_2",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display" :
+	{
+		"title" : "Tête de mule",
+		"description" : "Croiser un cheval et un ane pour obtenir une mule",
+		"icon" :
+		{
+			"item" : "minecraft:saddle"
+		}
+	},
+	"parent": "minecraft:husbandry/breed_an_animal",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:bred_animals",
+            "conditions":
+            {
+                "child":
+                {
+                    "type": "minecraft:mule"
+                }
+            }
+		}
+	}
+}

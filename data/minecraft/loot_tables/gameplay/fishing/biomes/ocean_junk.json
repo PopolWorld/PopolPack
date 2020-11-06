@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:fishing",
+    "pools":
+    [
+      {
+       "rolls": 1.0,
+       "entries":
+       [
+           {
+              "type": "minecraft:item",
+              "weight": 30,
+              "name": "minecraft:kelp",
+              "functions":
+              [
+                 {
+                  "function": "minecraft:set_count",
+                  "count":
+                  {
+                     "min": 4,
+                     "max": 10
+                  }
+                 }
+              ]
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:water_bucket"
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:sea_pickle"
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:seagrass"
+           }
+       ]
+      }
+    ]
+ }

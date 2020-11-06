@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Rang 2",
+		"description" : "Obtenir le rang de ___",
+		"icon" :
+		{
+			"item" : "minecraft:lapis_lazuli"
+		}
+	},
+	"parent": "minecraft:popolworld/rang_1",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

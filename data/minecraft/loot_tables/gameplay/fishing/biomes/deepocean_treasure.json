@@ -1,0 +1,83 @@
+{
+    "type": "minecraft:fishing",
+    "pools":
+    [
+      {
+       "rolls": 1.0,
+       "entries":
+       [
+           {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:scute"
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:heart_of_the_sea"
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:prismarine_shard",
+            "functions":
+            [
+                {
+                    "function": "minecraft:set_count",
+                    "count":
+                    {
+                        "min": 4,
+                        "max": 12
+                    }
+                }
+            ]
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:prismarine_crystals",
+            "functions":
+            [
+                {
+                    "function": "minecraft:set_count",
+                    "count":
+                    {
+                        "min": 3,
+                        "max": 8
+                    }
+                }
+            ]
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 4,
+            "functions":
+            [
+             {
+               "function": "minecraft:set_nbt",
+               "tag": "{Potion:\"minecraft:water_breathing\"}"
+             }
+            ],
+            "name": "minecraft:potion"
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":
+            [
+             {
+               "function": "minecraft:set_nbt",
+               "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+             }
+            ],
+            "name": "minecraft:potion"
+           },
+           {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:trident"
+           }
+       ]
+      }
+    ]
+ }

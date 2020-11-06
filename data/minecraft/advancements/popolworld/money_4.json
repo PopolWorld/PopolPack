@@ -1,0 +1,20 @@
+{
+	"display" :
+	{
+		"title" : "Le nouveau Jeff Bezos",
+		"description" : "Posseder un total de 10.000.000.000 P",
+		"frame": "challenge",
+		"icon" :
+		{
+			"item" : "minecraft:ancient_debris"
+		}
+	},
+	"parent": "minecraft:popolworld/money_3",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

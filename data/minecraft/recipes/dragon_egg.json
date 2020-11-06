@@ -1,0 +1,37 @@
+{
+	"type": "crafting_shaped",
+	"pattern": 
+	[
+		"EDE",
+        "NSN",
+        "OOO"
+	],
+	"key": 
+	{
+		"E":
+		{
+			"item": "minecraft:end_crystal"
+		},
+		"D": 
+		{
+			"item": "minecraft:dragon_head"
+		},
+		"N":
+		{
+			"item": "minecraft:netherite_ingot"
+		},
+		"S":
+		{
+			"item": "minecraft:nether_star"
+		},
+		"O":
+		{
+			"item": "minecraft:crying_obsidian"
+		}
+	},
+	"result": 
+	{
+		"item": "minecraft:dragon_egg",
+		"count": 1
+	}
+}

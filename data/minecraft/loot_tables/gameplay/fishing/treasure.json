@@ -1,0 +1,92 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+     {
+       "rolls": 1.0,
+       "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+           {
+             "function": "minecraft:enchant_with_levels",
+             "levels": 30,
+             "treasure": true
+           }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+           {
+             "function": "minecraft:set_nbt",
+             "tag": "{Potion:\"minecraft:luck\"}"
+           }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+             "condition": "minecraft:alternative",
+             "terms": [
+                 {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:deep_ocean"
+                    }
+                 },
+                 {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:deep_cold_ocean"
+                    }
+                 },
+                 {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:deep_frozen_ocean"
+                    }
+                 },
+                 {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:deep_warm_ocean"
+                    }
+                 }
+             ]
+            }
+          ],
+          "weight": 50,
+          "name": "minecraft:gameplay/fishing/biomes/deepocean_treasure"
+        },
+        {
+           "type": "minecraft:loot_table",
+           "conditions": [
+             {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "feature": "village"
+                }
+             }
+           ],
+           "weight": 15,
+           "name": "minecraft:gameplay/fishing/biomes/village_treasure"
+        }
+       ]
+     }
+    ]
+  }

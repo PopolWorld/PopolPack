@@ -1,0 +1,33 @@
+{
+	"type": "crafting_shaped",
+	"pattern": 
+	[
+		"EgE",
+        "gGg",
+        "DED"
+	],
+	"key": 
+	{
+		"E":
+		{
+			"item": "minecraft:emerald_block"
+		},
+		"G":
+		{
+			"item": "minecraft:gold_block"
+        },
+        "g":
+		{
+			"item": "minecraft:gold_ingot"
+		},
+		"D":
+		{
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": 
+	{
+        "item": "minecraft:totem_of_undying",
+		"count": 1
+	}
+}

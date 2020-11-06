@@ -1,0 +1,44 @@
+{
+	"display" :
+	{
+		"title" : "Je vois ... tout !",
+        "description" : "Utiliser un composteur pour obtenir un troisième œil",
+        "frame": "challenge",
+		"icon" :
+		{
+			"item" : "minecraft:emerald_ore"
+		}
+    },
+    "parent": "minecraft:adventure/root",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:location",
+            "conditions":
+            {
+                "location":
+                {
+                    "block":
+                    {
+                        "block": "minecraft:composter"
+                    }
+                },
+                "player":
+                [
+                    {
+                        "condition": "location_check",
+                        "offsetY": 1,
+                        "predicate":
+                        {
+                            "block":
+                            {
+                                "block": "minecraft:piston_head"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+	}
+}

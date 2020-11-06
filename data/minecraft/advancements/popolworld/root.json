@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "PopolWorld",
+		"description" : "Il y a des flèches ... et des zinzins !",
+		"icon" :
+		{
+			"item" : "minecraft:sponge"
+		},
+		"background" : "minecraft:textures/block/sponge.png"
+	},
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:tick"
+		}
+	}
+}

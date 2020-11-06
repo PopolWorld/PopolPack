@@ -1,0 +1,34 @@
+{
+	"display" :
+	{
+		"title" : "Par delà le toit",
+        "description" : "Accèder au toit du Nether",
+        "frame": "challenge",
+		"icon" :
+		{
+			"item" : "minecraft:bedrock"
+		}
+    },
+    "parent": "minecraft:nether/explore_nether",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:location",
+            "conditions":
+            {
+                "location":
+                {
+                    "dimension": "minecraft:the_nether",
+                    "position":
+                    {
+                        "y":
+                        {
+                            "min": 128
+                        }
+                    }
+                }
+            }
+        }
+	}
+}

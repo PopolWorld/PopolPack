@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shaped",
+	"group": "stairs_planks",
+	"pattern": 
+	[
+		"SS",
+        "SS"
+	],
+	"key": 
+	{
+		"S": 
+		{
+			"item": "minecraft:birch_stairs"
+		}
+	},
+	"result": 
+	{
+		"item": "minecraft:birch_planks",
+		"count": 6
+	}
+}

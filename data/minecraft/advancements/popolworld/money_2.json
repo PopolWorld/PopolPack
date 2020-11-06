@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Une petite fortune",
+		"description" : "Posseder un total de 1.000.000 P",
+		"icon" :
+		{
+			"item" : "minecraft:gold_block"
+		}
+	},
+	"parent": "minecraft:popolworld/money_1",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

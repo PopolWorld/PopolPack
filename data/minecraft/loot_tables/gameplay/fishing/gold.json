@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 35,
+            "quality": 5,
+            "name": "minecraft:gold_nugget",
+            "functions":
+            [
+                {
+                    "function": "set_count",
+                    "count":
+                    {
+                        "min": 5,
+                        "max": 12,
+                        "type": "uniform"
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "quality": 5,
+            "name": "minecraft:gold_ingot",
+            "functions":
+            [
+                {
+                    "function": "set_count",
+                    "count":
+                    {
+                        "min": 1,
+                        "max": 3,
+                        "type": "uniform"
+                    }
+                }
+            ]
+          },
+          {
+            "type": "empty",
+            "quality": -10,
+            "weight": 50
+          }
+        ]
+      }
+    ]
+  }
