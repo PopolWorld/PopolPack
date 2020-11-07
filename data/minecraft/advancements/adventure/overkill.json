@@ -7,7 +7,8 @@
 		{
             "item" : "minecraft:netherite_sword",
             "nbt": "{Enchantments:[{id:\"sharpness\", lvl:1}]}"
-		}
+        },
+        "frame": "challenge"
 	},
 	"parent": "minecraft:adventure/kill_a_mob",
 	"criteria" :

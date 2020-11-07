@@ -1,0 +1,212 @@
+{
+	"display" :
+	{
+		"title" : "Un savoir qui dure",
+		"description" : "Concevoir toutes les potions persistentes",
+		"icon" :
+		{
+            "item" : "minecraft:lingering_potion",
+            "nbt": "{Potion:\"minecraft:leaping\"}"
+		}
+	},
+	"parent": "minecraft:museum/potion/splash_potion",
+	"criteria" :
+	{
+        "leaping" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:leaping\"}"
+                    }
+                ]
+            }
+        },
+        "strength" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:strength\"}"
+                    }
+                ]
+            }
+		},
+        "weakness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:weakness\"}"
+                    }
+                ]
+            }
+		},
+        "swiftness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:swiftness\"}"
+                    }
+                ]
+            }
+		},
+        "slow_falling" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:slow_falling\"}"
+                    }
+                ]
+            }
+		},
+        "turtle_master" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:turtle_master\"}"
+                    }
+                ]
+            }
+		},
+        "invisibility" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:invisibility\"}"
+                    }
+                ]
+            }
+		},
+        "water_breathing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:water_breathing\"}"
+                    }
+                ]
+            }
+		},
+        "fire_resistance" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+                    }
+                ]
+            }
+		},
+        "regeneration" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:regeneration\"}"
+                    }
+                ]
+            }
+		},
+        "poison" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:poison\"}"
+                    }
+                ]
+            }
+		},
+        "harming" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:harming\"}"
+                    }
+                ]
+            }
+		},
+        "healing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:healing\"}"
+                    }
+                ]
+            }
+		},
+        "slowness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lingering_potion",
+                        "nbt": "{Potion:\"minecraft:slowness\"}"
+                    }
+                ]
+            }
+		}
+    }
+}

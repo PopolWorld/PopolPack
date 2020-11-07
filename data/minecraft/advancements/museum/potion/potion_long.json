@@ -1,0 +1,184 @@
+{
+	"display" :
+	{
+		"title" : "Longue liste de connaissances",
+		"description" : "Concevoir toutes les potions allongées",
+		"icon" :
+		{
+            "item" : "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+		}
+	},
+	"parent": "minecraft:museum/potion/potion",
+	"criteria" :
+	{
+        "leaping" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_leaping\"}"
+                    }
+                ]
+            }
+        },
+        "strength" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_strength\"}"
+                    }
+                ]
+            }
+		},
+        "weakness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_weakness\"}"
+                    }
+                ]
+            }
+		},
+        "swiftness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+                    }
+                ]
+            }
+		},
+        "slow_falling" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+                    }
+                ]
+            }
+		},
+        "turtle_master" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+                    }
+                ]
+            }
+		},
+        "invisibility" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+                    }
+                ]
+            }
+		},
+        "water_breathing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+                    }
+                ]
+            }
+		},
+        "fire_resistance" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_fire_resistance\"}"
+                    }
+                ]
+            }
+		},
+        "regeneration" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+                    }
+                ]
+            }
+		},
+        "poison" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_poison\"}"
+                    }
+                ]
+            }
+		},
+        "slowness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:long_slowness\"}"
+                    }
+                ]
+            }
+		}
+    }
+}

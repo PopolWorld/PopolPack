@@ -1,0 +1,142 @@
+{
+	"display" :
+	{
+		"title" : "Les potions de pouvoir",
+		"description" : "Concevoir toutes les potions de niveau deux",
+		"icon" :
+		{
+            "item" : "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:strong_poison\"}"
+		}
+	},
+	"parent": "minecraft:museum/potion/potion",
+	"criteria" :
+	{
+        "leaping" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_leaping\"}"
+                    }
+                ]
+            }
+        },
+        "strength" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_strength\"}"
+                    }
+                ]
+            }
+		},
+        "swiftness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+                    }
+                ]
+            }
+		},
+        "turtle_master" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+                    }
+                ]
+            }
+		},
+        "regeneration" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+                    }
+                ]
+            }
+		},
+        "poison" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_poison\"}"
+                    }
+                ]
+            }
+		},
+        "harming" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_harming\"}"
+                    }
+                ]
+            }
+		},
+        "healing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_healing\"}"
+                    }
+                ]
+            }
+		},
+        "slowness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_slowness\"}"
+                    }
+                ]
+            }
+		}
+    }
+}
