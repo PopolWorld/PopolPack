@@ -1,0 +1,30 @@
+{
+	"display" :
+	{
+		"title" : "OVERKILL !",
+		"description" : "Infliger plus de 10 coeurs de dégâts en un seul coup",
+		"icon" :
+		{
+            "item" : "minecraft:netherite_sword",
+            "nbt": "{Enchantments:[{id:\"sharpness\", lvl:1}]}"
+		}
+	},
+	"parent": "minecraft:adventure/kill_a_mob",
+	"criteria" :
+	{
+        "overkill" :
+		{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions":
+            {
+                "damage":
+                {
+                    "taken":
+                    {
+                        "min": 20
+                    }
+                }
+            }
+		}
+    }
+}

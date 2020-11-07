@@ -1,0 +1,26 @@
+{
+	"display" :
+	{
+		"title" : "Le lac magique",
+		"description" : "Pêcher un livre enchanté",
+		"icon" :
+		{
+			"item" : "minecraft:enchanted_book"
+		}
+	},
+	"parent": "minecraft:husbandry/fishy_business",
+	"criteria" :
+	{
+        "magic_fish" :
+		{
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions":
+            {
+                "item":
+                {
+                    "item": "minecraft:enchanted_book"
+                }
+            }
+		}
+    }
+}

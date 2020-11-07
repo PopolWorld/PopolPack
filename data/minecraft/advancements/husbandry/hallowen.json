@@ -1,0 +1,28 @@
+{
+	"display" :
+	{
+		"title" : "Prêt pour hallowen",
+		"description" : "Obtenir une citrouille lumineuse",
+		"icon" :
+		{
+			"item" : "minecraft:jack_o_lantern"
+		}
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria" :
+	{
+        "jack_o_lantern" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:jack_o_lantern"
+                    }
+                ]
+            }
+		}
+    }
+}
