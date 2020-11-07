@@ -1,0 +1,119 @@
+{
+	"display" :
+	{
+		"title" : "Canadien dans l'âme",
+		"description" : "Obtenir tout les types de bois",
+		"icon" :
+		{
+			"item" : "minecraft:oak_log"
+		}
+	},
+	"parent": "minecraft:museum/root",
+	"criteria" :
+	{
+		"oak" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:oak_log"
+                    }
+                ]
+            }
+        },
+        "birch" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:birch_log"
+                    }
+                ]
+            }
+        },
+        "jungle" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:jungle_log"
+                    }
+                ]
+            }
+        },
+        "acacia" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:acacia_log"
+                    }
+                ]
+            }
+        },
+        "spruce" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:spruce_log"
+                    }
+                ]
+            }
+        },
+        "dark_oak" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:dark_oak_log"
+                    }
+                ]
+            }
+        },
+        "crimson" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:crimson_stem"
+                    }
+                ]
+            }
+        },
+        "warped" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:warped_stem"
+                    }
+                ]
+            }
+		}
+    }
+}

@@ -7,7 +7,7 @@
 		{
 			"item" : "minecraft:sponge"
 		},
-		"background" : "minecraft:textures/block/sponge.png"
+		"background" : "minecraft:textures/block/wet_sponge.png"
 	},
 	"criteria" :
 	{

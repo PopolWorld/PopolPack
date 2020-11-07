@@ -1,0 +1,19 @@
+{
+	"display" :
+	{
+		"title" : "Musée",
+		"description" : "Une exposition de vos collections",
+		"icon" :
+		{
+			"item" : "minecraft:glass_pane"
+		},
+		"background" : "minecraft:textures/block/quartz_block_side.png"
+	},
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:tick"
+		}
+	}
+}
