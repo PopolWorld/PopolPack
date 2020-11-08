@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Par delà le plafond",
-        "description" : "Accèder au toit du Nether",
+		"title" : 
+        {
+            "translate" : "advancements.nether.roof.title"
+        },
+        "description" : 
+        {
+            "translate" : "advancements.nether.roof.description"
+        },
         "frame": "challenge",
 		"icon" :
 		{

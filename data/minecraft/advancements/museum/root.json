@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Musée",
-		"description" : "Une exposition de vos collections",
+		"title" :
+        {
+            "translate": "advancements.museum.root.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.root.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:glass_pane"

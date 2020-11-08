@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Canadien dans l'âme",
-		"description" : "Obtenir tout les types de bois",
+		"title" :
+        {
+            "translate": "advancements.museum.wood.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.wood.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:oak_log"

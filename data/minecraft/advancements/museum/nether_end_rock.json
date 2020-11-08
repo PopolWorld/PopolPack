@@ -1,11 +1,17 @@
 {
 	"display" :
 	{
-		"title" : "Mineur dans un enfer majeur",
-		"description" : "Obtenir tout les types de roches des autres mondes",
+		"title" :
+        {
+            "translate": "advancements.museum.nether_end_rock.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.nether_end_rock.description"
+        },
 		"icon" :
 		{
-			"item" : "minecraft:netherrack"
+			"item" : "minecraft:end_stone"
 		}
 	},
 	"parent": "minecraft:museum/rock",

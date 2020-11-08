@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Le lac magique",
-		"description" : "Pêcher un livre enchanté",
+		"title" : 
+        {
+            "translate" : "advancements.husbandry.magic_fish.title"
+        },
+		"description" : 
+        {
+            "translate" : "advancements.husbandry.magic_fish.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:enchanted_book"

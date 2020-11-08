@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Chimiste des temps anciens",
-		"description" : "Concevoir toutes les potions basiques",
+		"title" :
+        {
+            "translate": "advancements.museum.potion.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.potion.description"
+        },
 		"icon" :
 		{
             "item" : "minecraft:potion",

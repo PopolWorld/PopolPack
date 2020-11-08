@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Je vois ... tout !",
-        "description" : "Utiliser un composteur pour obtenir un troisième œil",
+		"title" : 
+        {
+            "translate" : "advancements.adventure.xray.title"
+        },
+        "description" : 
+        {
+            "translate" : "advancements.adventure.xray.description"
+        },
         "frame": "challenge",
 		"icon" :
 		{

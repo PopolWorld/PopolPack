@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Longue liste de connaissances",
-		"description" : "Concevoir toutes les potions allongées",
+		"title" :
+        {
+            "translate": "advancements.museum.potion_long.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.potion_long.description"
+        },
 		"icon" :
 		{
             "item" : "minecraft:potion",

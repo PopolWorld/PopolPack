@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Prêt pour hallowen",
-		"description" : "Obtenir une citrouille lumineuse",
+		"title" : 
+        {
+            "translate" : "advancements.husbandry.hallowen.title"
+        },
+		"description" : 
+        {
+            "translate" : "advancements.husbandry.hallowen.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:jack_o_lantern"

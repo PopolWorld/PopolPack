@@ -3,9 +3,12 @@
 	{
         "title" :
         {
-            "translate": "advancement.adventure.overkill.title"
+            "translate": "advancements.adventure.overkill.title"
         },
-		"description" : "Infliger plus de 10 coeurs de dégâts en un seul coup",
+        "description" :
+        {
+            "translate" : "advancements.adventure.overkill.description"
+        },
 		"icon" :
 		{
             "item" : "minecraft:netherite_sword",

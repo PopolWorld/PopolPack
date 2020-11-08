@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Un savoir qui dure",
-		"description" : "Concevoir toutes les potions persistentes",
+		"title" :
+        {
+            "translate": "advancements.museum.dragon_potion.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.dragon_potion.description"
+        },
 		"icon" :
 		{
             "item" : "minecraft:lingering_potion",

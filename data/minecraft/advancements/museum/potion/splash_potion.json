@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Alchimie Explosive",
-		"description" : "Concevoir toutes les potions jetables",
+		"title" :
+        {
+            "translate": "advancements.museum.splash_potion.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.splash_potion.description"
+        },
 		"icon" :
 		{
             "item" : "minecraft:splash_potion",

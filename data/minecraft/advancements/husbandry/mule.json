@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Tête de mule",
-		"description" : "Croiser un cheval et un ane pour obtenir une mule",
+		"title" : 
+        {
+            "translate" : "advancements.husbandry.mule.title"
+        },
+		"description" : 
+        {
+            "translate" : "advancements.husbandry.mule.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:saddle"

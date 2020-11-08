@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Mineur de plus de 18 ans",
-		"description" : "Obtenir tout les types de roches",
+		"title" :
+        {
+            "translate": "advancements.museum.rock.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.rock.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:stone"

@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Les potions de pouvoir",
-		"description" : "Concevoir toutes les potions de niveau deux",
+		"title" :
+        {
+            "translate": "advancements.museum.potion_strong.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.potion_strong.description"
+        },
 		"icon" :
 		{
             "item" : "minecraft:potion",
