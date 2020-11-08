@@ -2,5 +2,5 @@ summon item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1,tag:{CustomPotionColor:16
 kill @e[type=item,limit=1,distance=0..0.5,nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:mundane"}}}]
 kill @e[type=item,limit=1,distance=0..0.5,nbt={Item:{id:"minecraft:blaze_powder"}}]
 kill @e[type=item,limit=1,distance=0..0.5,nbt={Item:{id:"minecraft:nether_wart"}}]
-kill @e[type=item,limit=1,distance=0..0.5,nbt={Item:{id:"minecraft:diamond"}}]
+kill @e[type=item,limit=1,distance=0..0.5,nbt={Item:{id:"minecraft:honeycomb"}}]
 particle smoke ~ ~ ~ 0.1 0.1 0.1 0.1 100
