@@ -1,6 +1,8 @@
 # PopolPack
 Datapack pour le serveur Survival de PopolWorld
 
+Disponible intégralement en Anglais et en Français
+
 Fonctionalités :
   - Nouvelles loot_tables pour la pêche
     - Pêche en général
@@ -24,6 +26,13 @@ Fonctionalités :
     - Dragon Egg
     - Terre
   - Permet de recombiner les escalier et dalle en blocs complets
+  - Ajout de nouvelles potions, faites en jetant des items dans un chaudron
+    - Ambroisie (Invincibilité pendant 10 secondes)
+    - Elixir du Mineur (Haste 1/2 pendant 1/2/5 minutes)
+    - Cocktail d'Infortune (Bad Omen 3/5)
+    - Adrenaline (Vitesse 3/5 et Poison 1/2 pendant 20/30/60 secondes)
+    - Potion de Cécité (Pendant 1/2 minutes)
   - Ajout d'avancements
     - Avancements exclusifs à PopolWorld
+    - Avancements "Musée", pour les completionnistes
     - Avancements pour le jeu de base
