@@ -3,11 +3,11 @@
 	{
 		"title" :
         {
-            "translate": "advancements.popolworld.market.title"
+            "translate": "advancements.popolworld.exchange.title"
         },
         "description" :
         {
-            "translate" : "advancements.popolworld.market.description"
+            "translate" : "advancements.popolworld.exchange.description"
         },
 		"icon" :
 		{
