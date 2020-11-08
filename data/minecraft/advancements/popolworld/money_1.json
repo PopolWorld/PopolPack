@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Un salaire de prof",
-		"description" : "Posseder un total de 10.000 P",
+		"title" :
+        {
+            "translate": "advancements.popolworld.money_1.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.money_1.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:iron_ingot"

@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Le nouveau Jeff Bezos",
-		"description" : "Posseder un total de 10.000.000.000 P",
+		"title" :
+        {
+            "translate" : "advancements.popolworld.money_4.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.money_4.description"
+        },
 		"frame": "challenge",
 		"icon" :
 		{

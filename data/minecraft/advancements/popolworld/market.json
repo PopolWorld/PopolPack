@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "De l'argent !",
-		"description" : "Vendre quelque chose sur le marché",
+		"title" :
+        {
+            "translate": "advancements.popolworld.market.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.market.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:gold_nugget"

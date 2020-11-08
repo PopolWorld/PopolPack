@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "La loi de l'échange équivalent",
-		"description" : "Faite un échange avec un autre joueur",
+		"title" :
+        {
+            "translate": "advancements.popolworld.market.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.market.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:emerald"

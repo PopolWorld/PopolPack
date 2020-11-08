@@ -1,8 +1,11 @@
 {
 	"display" :
 	{
-		"title" : "PopolWorld",
-		"description" : "Il y a des flèches ... et des zinzins !",
+		"title" :
+        {
+            "translate": "advancements.popolworld.root.title"
+        },
+        "description" : "",
 		"icon" :
 		{
 			"item" : "minecraft:sponge"

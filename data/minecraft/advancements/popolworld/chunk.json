@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Ici, c'est chez moi !",
-		"description" : "Claim un chunk",
+		"title" :
+        {
+            "translate": "advancements.popolworld.chunk.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.chunk.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:oak_sapling"

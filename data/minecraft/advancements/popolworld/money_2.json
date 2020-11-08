@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Une petite fortune",
-		"description" : "Posseder un total de 1.000.000 P",
+		"title" :
+        {
+            "translate": "advancements.popolworld.money_2.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.money_2.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:gold_block"

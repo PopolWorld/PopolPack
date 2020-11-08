@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Et ça restera chez moi !",
-		"description" : "Dépenser une petite fortune pour garder un chunk tout le temps actif",
+		"title" :
+        {
+            "translate": "advancements.popolworld.chunk_forceload.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.chunk_forceload.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:obsidian"

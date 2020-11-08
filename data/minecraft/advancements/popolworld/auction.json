@@ -1,8 +1,14 @@
 {
 	"display" :
 	{
-		"title" : "Adjugé vendu !",
-		"description" : "Mettre un objet en vente sur le marché commun",
+		"title" :
+        {
+            "translate": "advancements.popolworld.auction.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.auction.description"
+        },
 		"icon" :
 		{
 			"item" : "minecraft:redstone_block"
