@@ -1,7 +1,10 @@
 {
 	"display" :
 	{
-		"title" : "OVERKILL !",
+        "title" :
+        {
+            "translate": "advancement.adventure.overkill.title"
+        },
 		"description" : "Infliger plus de 10 coeurs de dégâts en un seul coup",
 		"icon" :
 		{
