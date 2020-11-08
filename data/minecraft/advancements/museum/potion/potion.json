@@ -213,6 +213,76 @@
                     }
                 ]
             }
+		},
+        "ambrosia" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:11b,Duration:200,Amplifier:4b}]}"
+                    }
+                ]
+            }
+		},
+        "miner_elixir" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:3b,Duration:2400,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "misfortune_cocktail" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:31b,Duration:71980,Amplifier:2b,ShowParticles:false}]}"
+                    }
+                ]
+            }
+		},
+        "adrenaline" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:1b,Duration:300,Amplifier:2b},{Id:19b,Duration:300,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "blindness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:15b,Duration:1200,Amplifier:0b}]}"
+                    }
+                ]
+            }
 		}
     }
 }

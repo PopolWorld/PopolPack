@@ -185,6 +185,48 @@
                     }
                 ]
             }
+		},
+        "miner_elixir" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:3b,Duration:6000,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "adrenaline" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:1b,Duration:600,Amplifier:2b},{Id:19b,Duration:600,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "blindness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:15b,Duration:2400,Amplifier:0b}]}"
+                    }
+                ]
+            }
 		}
     }
 }
