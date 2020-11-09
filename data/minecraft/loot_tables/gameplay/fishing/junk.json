@@ -328,12 +328,6 @@
                         "predicate": {
                           "biome": "minecraft:dark_forest_hills"
                         }
-                      },
-                      {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                          "biome": "minecraft:the_void"
-                        }
                       }
                   ]
                  }
@@ -540,6 +534,50 @@
                ],
                "weight": 5,
                "name": "minecraft:gameplay/fishing/biomes/badlands_junk"
+            },
+            {
+               "type": "minecraft:loot_table",
+               "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:savanna"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:savanna_plateau"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:shattered_savanna_plateau"
+                    }
+                  }
+               ],
+               "weight": 5,
+               "name": "minecraft:gameplay/fishing/biomes/savannah_junk"
+            },
+            {
+               "type": "minecraft:loot_table",
+               "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:river"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biome": "minecraft:frozen_river"
+                    }
+                  }
+               ],
+               "weight": 5,
+               "name": "minecraft:gameplay/fishing/biomes/savannah_junk"
             }
           ]
          }
