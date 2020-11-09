@@ -76,6 +76,13 @@
                   {
                     "biome": "minecraft:modified_wooded_badlands_plateau"
                   }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate":
+                  {
+                    "biome": "minecraft:wooded_badlands_plateau"
+                  }
                 }
               ]
             }

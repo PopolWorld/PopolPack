@@ -85,6 +85,49 @@
            ],
            "weight": 15,
            "name": "minecraft:gameplay/fishing/biomes/village_treasure"
+        },
+        {
+           "type": "minecraft:loot_table",
+           "conditions": [
+             {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:badlands"
+                }
+             },
+             {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:badlands_plateau"
+                }
+             },
+             {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:eroded_badlands"
+                }
+             },
+             {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_badlands_plateau"
+                }
+             },
+             {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_wooded_badlands_plateau"
+                }
+             },
+             {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_badlands_plateau"
+                }
+             }
+           ],
+           "weight": 15,
+           "name": "minecraft:gameplay/fishing/biomes/badlands_treasure"
         }
        ]
      }

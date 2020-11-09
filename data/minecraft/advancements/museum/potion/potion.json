@@ -283,6 +283,20 @@
                     }
                 ]
             }
+		},
+        "poseidon_tears" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:30b,Duration:1800,Amplifier:0b}]}"
+                    }
+                ]
+            }
 		}
     }
 }
