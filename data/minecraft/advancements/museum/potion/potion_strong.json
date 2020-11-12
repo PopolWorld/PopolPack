@@ -1,0 +1,190 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.museum.potion_strong.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.potion_strong.description"
+        },
+		"icon" :
+		{
+            "item" : "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:strong_poison\"}"
+		}
+	},
+	"parent": "minecraft:museum/potion/potion",
+	"criteria" :
+	{
+        "leaping" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_leaping\"}"
+                    }
+                ]
+            }
+        },
+        "strength" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_strength\"}"
+                    }
+                ]
+            }
+		},
+        "swiftness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+                    }
+                ]
+            }
+		},
+        "turtle_master" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+                    }
+                ]
+            }
+		},
+        "regeneration" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+                    }
+                ]
+            }
+		},
+        "poison" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_poison\"}"
+                    }
+                ]
+            }
+		},
+        "harming" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_harming\"}"
+                    }
+                ]
+            }
+		},
+        "healing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_healing\"}"
+                    }
+                ]
+            }
+		},
+        "slowness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{Potion:\"minecraft:strong_slowness\"}"
+                    }
+                ]
+            }
+		},
+        "miner_elixir" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:3b,Duration:1200,Amplifier:1b}]}"
+                    }
+                ]
+            }
+		},
+        "misfortune_cocktail" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:31b,Duration:71980,Amplifier:4b,ShowParticles:false}]}"
+                    }
+                ]
+            }
+		},
+        "adrenaline" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomPotionEffects:[{Id:1b,Duration:200,Amplifier:4b},{Id:19b,Duration:200,Amplifier:1b}]}"
+                    }
+                ]
+            }
+		}
+    }
+}

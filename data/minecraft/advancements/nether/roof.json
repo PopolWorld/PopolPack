@@ -1,0 +1,41 @@
+{
+	"display" :
+	{
+		"title" : 
+        {
+            "translate" : "advancements.nether.roof.title"
+        },
+        "description" : 
+        {
+            "translate" : "advancements.nether.roof.description"
+        },
+        "frame": "challenge",
+		"icon" :
+		{
+			"item" : "minecraft:bedrock"
+        },
+        "hidden": true
+    },
+    "parent": "minecraft:nether/explore_nether",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:location",
+            "conditions":
+            {
+                "location":
+                {
+                    "dimension": "minecraft:the_nether",
+                    "position":
+                    {
+                        "y":
+                        {
+                            "min": 128
+                        }
+                    }
+                }
+            }
+        }
+	}
+}

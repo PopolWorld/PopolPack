@@ -1,0 +1,25 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.popolworld.chunk_8.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.chunk_8.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:bricks"
+		}
+    },
+    "parent" : "minecraft:popolworld/chunk",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+			"trigger" : "minecraft:impossible"
+		}
+	}
+}

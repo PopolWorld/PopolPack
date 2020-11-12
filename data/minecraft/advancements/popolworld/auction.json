@@ -1,0 +1,25 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.popolworld.auction.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.auction.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:redstone_block"
+		}
+	},
+	"parent": "minecraft:popolworld/market",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}
