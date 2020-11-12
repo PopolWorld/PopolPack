@@ -13,7 +13,8 @@
 		"icon" :
 		{
 			"item" : "minecraft:emerald_ore"
-		}
+		},
+        "hidden": true
     },
     "parent": "minecraft:adventure/root",
 	"criteria" :

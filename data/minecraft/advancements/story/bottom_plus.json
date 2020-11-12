@@ -3,11 +3,11 @@
 	{
         "title" :
         {
-            "translate": "advancements.story.bottom.title"
+            "translate": "advancements.story.bottom_plus.title"
         },
         "description" :
         {
-            "translate" : "advancements.story.bottom.description"
+            "translate" : "advancements.story.bottom_plus.description"
         },
 		"icon" :
 		{
@@ -18,7 +18,7 @@
 	"parent": "minecraft:story/bottom",
 	"criteria" :
 	{
-        "bottom" :
+        "bottom_plus" :
 		{
             "trigger": "minecraft:location",
             "conditions":
@@ -29,7 +29,7 @@
                     {
                         "y":
                         {
-                            "min": 0
+                            "max": -30
                         },
                         "dimension": "minecraft:overworld"
                     }

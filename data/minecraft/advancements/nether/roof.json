@@ -13,7 +13,8 @@
 		"icon" :
 		{
 			"item" : "minecraft:bedrock"
-		}
+        },
+        "hidden": true
     },
     "parent": "minecraft:nether/explore_nether",
 	"criteria" :
