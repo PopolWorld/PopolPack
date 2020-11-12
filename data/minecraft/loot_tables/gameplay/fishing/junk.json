@@ -147,7 +147,7 @@
                    }
                  ],
                  "weight": 40,
-                 "name": "minecraft:gameplay/fishing/biomes/jungle_junk"
+                 "name": "popolpack:gameplay/fishing/biomes/jungle_junk"
               },
               {
                "type": "minecraft:loot_table",
@@ -195,7 +195,7 @@
                  }
                ],
                "weight": 45,
-               "name": "minecraft:gameplay/fishing/biomes/ocean_junk"
+               "name": "popolpack:gameplay/fishing/biomes/ocean_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -213,7 +213,7 @@
                  }
                ],
                "weight": 20,
-               "name": "minecraft:gameplay/fishing/biomes/warmocean_junk"
+               "name": "popolpack:gameplay/fishing/biomes/warmocean_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -285,7 +285,7 @@
                  }
                ],
                "weight": 50,
-               "name": "minecraft:gameplay/fishing/biomes/cold_junk"
+               "name": "popolpack:gameplay/fishing/biomes/cold_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -333,7 +333,7 @@
                  }
                ],
                "weight": 20,
-               "name": "minecraft:gameplay/fishing/biomes/mushroom_junk"
+               "name": "popolpack:gameplay/fishing/biomes/mushroom_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -357,7 +357,7 @@
                  }
                ],
                "weight": 15,
-               "name": "minecraft:gameplay/fishing/biomes/swamp_junk"
+               "name": "popolpack:gameplay/fishing/biomes/swamp_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -417,7 +417,7 @@
                  }
                ],
                "weight": 25,
-               "name": "minecraft:gameplay/fishing/biomes/hot_junk"
+               "name": "popolpack:gameplay/fishing/biomes/hot_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -477,7 +477,7 @@
                  }
                ],
                "weight": 25,
-               "name": "minecraft:gameplay/fishing/biomes/plains_junk"
+               "name": "popolpack:gameplay/fishing/biomes/plains_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -490,7 +490,7 @@
                  }
                ],
                "weight": 70,
-               "name": "minecraft:gameplay/fishing/biomes/village_junk"
+               "name": "popolpack:gameplay/fishing/biomes/village_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -533,7 +533,7 @@
                  }
                ],
                "weight": 5,
-               "name": "minecraft:gameplay/fishing/biomes/badlands_junk"
+               "name": "popolpack:gameplay/fishing/biomes/badlands_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -558,7 +558,7 @@
                   }
                ],
                "weight": 5,
-               "name": "minecraft:gameplay/fishing/biomes/savannah_junk"
+               "name": "popolpack:gameplay/fishing/biomes/savannah_junk"
             },
             {
                "type": "minecraft:loot_table",
@@ -577,7 +577,7 @@
                   }
                ],
                "weight": 5,
-               "name": "minecraft:gameplay/fishing/biomes/savannah_junk"
+               "name": "popolpack:gameplay/fishing/biomes/savannah_junk"
             }
           ]
          }

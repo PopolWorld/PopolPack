@@ -71,7 +71,7 @@
             }
           ],
           "weight": 50,
-          "name": "minecraft:gameplay/fishing/biomes/deepocean_treasure"
+          "name": "popolpack:gameplay/fishing/biomes/deepocean_treasure"
         },
         {
            "type": "minecraft:loot_table",
@@ -84,7 +84,7 @@
              }
            ],
            "weight": 15,
-           "name": "minecraft:gameplay/fishing/biomes/village_treasure"
+           "name": "popolpack:gameplay/fishing/biomes/village_treasure"
         },
         {
            "type": "minecraft:loot_table",
@@ -127,7 +127,7 @@
              }
            ],
            "weight": 12,
-           "name": "minecraft:gameplay/fishing/biomes/badlands_treasure"
+           "name": "popolpack:gameplay/fishing/biomes/badlands_treasure"
         }
        ]
      }

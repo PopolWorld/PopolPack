@@ -1,0 +1,288 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.museum.splash_potion.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.splash_potion.description"
+        },
+		"icon" :
+		{
+            "item" : "minecraft:splash_potion",
+            "nbt": "{Potion:\"minecraft:swiftness\"}"
+		}
+	},
+	"parent": "popolpack:museum/potion/potion",
+	"criteria" :
+	{
+        "leaping" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:leaping\"}"
+                    }
+                ]
+            }
+        },
+        "strength" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:strength\"}"
+                    }
+                ]
+            }
+		},
+        "weakness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:weakness\"}"
+                    }
+                ]
+            }
+		},
+        "swiftness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:swiftness\"}"
+                    }
+                ]
+            }
+		},
+        "slow_falling" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:slow_falling\"}"
+                    }
+                ]
+            }
+		},
+        "turtle_master" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:turtle_master\"}"
+                    }
+                ]
+            }
+		},
+        "invisibility" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:invisibility\"}"
+                    }
+                ]
+            }
+		},
+        "water_breathing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:water_breathing\"}"
+                    }
+                ]
+            }
+		},
+        "fire_resistance" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+                    }
+                ]
+            }
+		},
+        "regeneration" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:regeneration\"}"
+                    }
+                ]
+            }
+		},
+        "poison" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:poison\"}"
+                    }
+                ]
+            }
+		},
+        "harming" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:harming\"}"
+                    }
+                ]
+            }
+		},
+        "healing" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:healing\"}"
+                    }
+                ]
+            }
+		},
+        "slowness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{Potion:\"minecraft:slowness\"}"
+                    }
+                ]
+            }
+		},
+        "ambrosia" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{CustomPotionEffects:[{Id:11b,Duration:200,Amplifier:4b}]}"
+                    }
+                ]
+            }
+		},
+        "miner_elixir" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{CustomPotionEffects:[{Id:3b,Duration:2400,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "adrenaline" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{CustomPotionEffects:[{Id:1b,Duration:300,Amplifier:2b},{Id:19b,Duration:300,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "blindness" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{CustomPotionEffects:[{Id:15b,Duration:1200,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		},
+        "poseidon_tears" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "nbt": "{CustomPotionEffects:[{Id:15b,Duration:1800,Amplifier:0b}]}"
+                    }
+                ]
+            }
+		}
+    }
+}

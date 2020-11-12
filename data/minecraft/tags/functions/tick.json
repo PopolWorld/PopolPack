@@ -3,7 +3,7 @@
     "values": 
     [
       {
-          "id": "minecraft:custom_crafting",
+          "id": "popolpack:custom_crafting",
           "required": false
       }
     ]

@@ -1,0 +1,25 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.popolworld.market.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.popolworld.market.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:gold_nugget"
+		}
+	},
+	"parent": "popolpack:popolworld/root",
+	"criteria" :
+	{
+		"trigger_1" :
+		{
+            "trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -91,68 +91,7 @@
         [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:gameplay/fishing/gold"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "conditions":
-        [
-            {
-              "condition": "minecraft:alternative",
-              "terms":
-              [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate":
-                  {
-                    "biome": "minecraft:badlands"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate":
-                  {
-                    "biome": "minecraft:badlands_plateau"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate":
-                  {
-                    "biome": "minecraft:modified_badlands_plateau"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate":
-                  {
-                    "biome": "minecraft:eroded_badlands"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate":
-                  {
-                    "biome": "minecraft:modified_wooded_badlands_plateau"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate":
-                  {
-                    "biome": "minecraft:wooded_badlands_plateau"
-                  }
-                }
-              ]
-            }
-        ],
-        "entries":
-        [
-          {
-            "type": "minecraft:loot_table",
-            "name": "minecraft:gameplay/fishing/gold"
+            "name": "popolpack:gameplay/fishing/gold"
           }
         ]
       },
@@ -185,7 +124,7 @@
         [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:gameplay/fishing/iron"
+            "name": "popolpack:gameplay/fishing/iron"
           }
         ]
       },
@@ -207,13 +146,13 @@
             "type": "minecraft:loot_table",
             "weight": 25,
             "quality": 5,
-            "name": "minecraft:gameplay/fishing/biomes/end_treasure"
+            "name": "popolpack:gameplay/fishing/biomes/end_treasure"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 75,
             "quality": -5,
-            "name": "minecraft:gameplay/fishing/biomes/end_junk"
+            "name": "popolpack:gameplay/fishing/biomes/end_junk"
           }
         ]
       }
