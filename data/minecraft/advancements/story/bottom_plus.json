@@ -1,0 +1,40 @@
+{
+	"display" :
+	{
+        "title" :
+        {
+            "translate": "advancements.story.bottom.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.story.bottom.description"
+        },
+		"icon" :
+		{
+            "item" : "minecraft:bedrock"
+        },
+        "hidden": true
+	},
+	"parent": "minecraft:story/bottom",
+	"criteria" :
+	{
+        "bottom" :
+		{
+            "trigger": "minecraft:location",
+            "conditions":
+            {
+                "location":
+                {
+                    "position":
+                    {
+                        "y":
+                        {
+                            "min": 0
+                        },
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+            }
+		}
+    }
+}
