@@ -40,7 +40,8 @@
            {
             "type": "minecraft:tag",
             "weight": 10,
-            "name": "minecraft:flowers2"
+            "name": "minecraft:flowers2",
+            "expand": true
            }
        ]
       }
