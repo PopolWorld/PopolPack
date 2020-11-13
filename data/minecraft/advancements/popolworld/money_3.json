@@ -17,7 +17,7 @@
 	"parent": "minecraft:popolworld/money_2",
 	"criteria" :
 	{
-		"trigger_1" :
+		"money_3" :
 		{
             "trigger": "minecraft:impossible"
 		}

@@ -17,7 +17,7 @@
     "parent" : "minecraft:popolworld/chunk",
 	"criteria" :
 	{
-		"trigger_1" :
+		"chunk_forceload" :
 		{
 			"trigger" : "minecraft:impossible"
 		}

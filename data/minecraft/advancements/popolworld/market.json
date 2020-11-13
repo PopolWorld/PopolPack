@@ -17,7 +17,7 @@
 	"parent": "minecraft:popolworld/root",
 	"criteria" :
 	{
-		"trigger_1" :
+		"market" :
 		{
             "trigger": "minecraft:impossible"
 		}

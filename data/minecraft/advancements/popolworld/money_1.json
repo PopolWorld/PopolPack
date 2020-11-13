@@ -17,7 +17,7 @@
 	"parent": "minecraft:popolworld/market",
 	"criteria" :
 	{
-		"trigger_1" :
+		"money_1" :
 		{
             "trigger": "minecraft:impossible"
 		}
