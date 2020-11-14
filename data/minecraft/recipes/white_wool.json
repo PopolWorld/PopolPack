@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "white_dye"
+        },
+        {
+            "tag": "minecraft:wool"
+        }
+    ],
+	"result": 
+	{
+		"item": "minecraft:white_wool",
+		"count": 1
+	}
+}

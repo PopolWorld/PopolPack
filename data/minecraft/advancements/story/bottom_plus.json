@@ -11,8 +11,9 @@
         },
 		"icon" :
 		{
-            "item" : "minecraft:bedrock"
+            "item" : "minecraft:end_crystal"
         },
+        "frame": "challenge",
         "hidden": true
 	},
 	"parent": "minecraft:story/bottom",

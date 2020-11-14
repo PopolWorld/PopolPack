@@ -1,0 +1,229 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.museum.terracotta.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.terracotta.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:lime_terracotta"
+		}
+	},
+	"parent": "minecraft:museum/color/dye",
+	"criteria" :
+	{
+		"black" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:black_terracotta"
+                    }
+                ]
+            }
+        },
+        "blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:blue_terracotta"
+                    }
+                ]
+            }
+        },
+        "brown" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:brown_terracotta"
+                    }
+                ]
+            }
+        },
+        "cyan" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:cyan_terracotta"
+                    }
+                ]
+            }
+        },
+        "grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:gray_terracotta"
+                    }
+                ]
+            }
+        },
+        "green" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:green_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_blue_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_gray_terracotta"
+                    }
+                ]
+            }
+		},
+        "lime" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lime_terracotta"
+                    }
+                ]
+            }
+		},
+        "magenta" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:magenta_terracotta"
+                    }
+                ]
+            }
+		},
+        "orange" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:orange_terracotta"
+                    }
+                ]
+            }
+		},
+        "pink" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:pink_terracotta"
+                    }
+                ]
+            }
+		},
+        "purple" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:purple_terracotta"
+                    }
+                ]
+            }
+		},
+        "red" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:red_terracotta"
+                    }
+                ]
+            }
+		},
+        "white" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:white_terracotta"
+                    }
+                ]
+            }
+		},
+        "yellow" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:yellow_terracotta"
+                    }
+                ]
+            }
+		}
+    }
+}
