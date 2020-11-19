@@ -19,6 +19,7 @@ Fonctionalités :
   - Pêche dans les déserts
   - Pêche dans les marais
 - De l'or est pêché en plus dans les mesas
+- Du fer est pêché en plus dans les rivières
 - Ajout de nouveaux crafts
   - Selle
   - Armures à chevaux
@@ -30,11 +31,11 @@ Fonctionalités :
 - Permet de recombiner les escaliers et dalles en blocs complets
 - Ajout de nouvelles potions, faites en jetant des items dans un chaudron
   - Ambroisie (Invincibilité pendant 10 secondes)
-  - Elixir du Mineur (Haste 1/2 pendant 1/2/5 minutes)
+  - Elixir du Mineur (Haste 1/2 pendant 1.5/3/6 minutes)
   - Cocktail d'Infortune (Mauvais Présage 3/5)
   - Adrenaline (Vitesse 3/5 et Poison 1/2 pendant 20/30/60 secondes)
-  - Potion de Cécité (Pendant 1/2 minutes)
-  - Larmes de Poséidon (Grace du Dauphin 1.5/4 minutes)
+  - Potion de Cécité (Cécité pendant 1/2 minutes)
+  - Larmes de Poséidon (Grace du Dauphin pendant 1.5/4 minutes)
 - Ajout d'avancements
   - Avancements exclusifs à PopolWorld
   - Avancements "Musée", pour les completionistes

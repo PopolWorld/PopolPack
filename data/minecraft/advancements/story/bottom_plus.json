@@ -26,13 +26,13 @@
             {
                 "location":
                 {
+                    "dimension": "minecraft:overworld",
                     "position":
                     {
                         "y":
                         {
                             "max": -30
-                        },
-                        "dimension": "minecraft:overworld"
+                        }
                     }
                 }
             }
