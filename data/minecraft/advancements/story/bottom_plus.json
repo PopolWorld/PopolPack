@@ -11,8 +11,9 @@
         },
 		"icon" :
 		{
-            "item" : "minecraft:bedrock"
+            "item" : "minecraft:end_crystal"
         },
+        "frame": "challenge",
         "hidden": true
 	},
 	"parent": "minecraft:story/bottom",
@@ -25,13 +26,13 @@
             {
                 "location":
                 {
+                    "dimension": "minecraft:overworld",
                     "position":
                     {
                         "y":
                         {
                             "max": -30
-                        },
-                        "dimension": "minecraft:overworld"
+                        }
                     }
                 }
             }

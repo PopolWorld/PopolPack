@@ -1,0 +1,229 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.museum.wool.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.wool.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:blue_wool"
+		}
+	},
+	"parent": "minecraft:museum/color/dye",
+	"criteria" :
+	{
+		"black" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:black_wool"
+                    }
+                ]
+            }
+        },
+        "blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:blue_wool"
+                    }
+                ]
+            }
+        },
+        "brown" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:brown_wool"
+                    }
+                ]
+            }
+        },
+        "cyan" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:cyan_wool"
+                    }
+                ]
+            }
+        },
+        "grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:gray_wool"
+                    }
+                ]
+            }
+        },
+        "green" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:green_wool"
+                    }
+                ]
+            }
+        },
+        "light_blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_blue_wool"
+                    }
+                ]
+            }
+        },
+        "light_grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_gray_wool"
+                    }
+                ]
+            }
+		},
+        "lime" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lime_wool"
+                    }
+                ]
+            }
+		},
+        "magenta" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:magenta_wool"
+                    }
+                ]
+            }
+		},
+        "orange" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:orange_wool"
+                    }
+                ]
+            }
+		},
+        "pink" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:pink_wool"
+                    }
+                ]
+            }
+		},
+        "purple" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:purple_wool"
+                    }
+                ]
+            }
+		},
+        "red" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:red_wool"
+                    }
+                ]
+            }
+		},
+        "white" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:white_wool"
+                    }
+                ]
+            }
+		},
+        "yellow" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:yellow_wool"
+                    }
+                ]
+            }
+		}
+    }
+}

@@ -1,0 +1,229 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.museum.concrete.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.concrete.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:red_concrete"
+		}
+	},
+	"parent": "minecraft:museum/color/concrete_powder",
+	"criteria" :
+	{
+		"black" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:black_concrete"
+                    }
+                ]
+            }
+        },
+        "blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:blue_concrete"
+                    }
+                ]
+            }
+        },
+        "brown" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:brown_concrete"
+                    }
+                ]
+            }
+        },
+        "cyan" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:cyan_concrete"
+                    }
+                ]
+            }
+        },
+        "grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:gray_concrete"
+                    }
+                ]
+            }
+        },
+        "green" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:green_concrete"
+                    }
+                ]
+            }
+        },
+        "light_blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_blue_concrete"
+                    }
+                ]
+            }
+        },
+        "light_grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_gray_concrete"
+                    }
+                ]
+            }
+		},
+        "lime" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lime_concrete"
+                    }
+                ]
+            }
+		},
+        "magenta" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:magenta_concrete"
+                    }
+                ]
+            }
+		},
+        "orange" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:orange_concrete"
+                    }
+                ]
+            }
+		},
+        "pink" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:pink_concrete"
+                    }
+                ]
+            }
+		},
+        "purple" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:purple_concrete"
+                    }
+                ]
+            }
+		},
+        "red" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:red_concrete"
+                    }
+                ]
+            }
+		},
+        "white" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:white_concrete"
+                    }
+                ]
+            }
+		},
+        "yellow" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:yellow_concrete"
+                    }
+                ]
+            }
+		}
+    }
+}

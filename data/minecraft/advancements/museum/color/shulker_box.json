@@ -1,0 +1,229 @@
+{
+	"display" :
+	{
+		"title" :
+        {
+            "translate": "advancements.museum.shulker_box.title"
+        },
+        "description" :
+        {
+            "translate" : "advancements.museum.shulker_box.description"
+        },
+		"icon" :
+		{
+			"item" : "minecraft:brown_shulker_box"
+		}
+	},
+	"parent": "minecraft:museum/color/dye",
+	"criteria" :
+	{
+		"black" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:black_shulker_box"
+                    }
+                ]
+            }
+        },
+        "blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:blue_shulker_box"
+                    }
+                ]
+            }
+        },
+        "brown" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:brown_shulker_box"
+                    }
+                ]
+            }
+        },
+        "cyan" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:cyan_shulker_box"
+                    }
+                ]
+            }
+        },
+        "grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:gray_shulker_box"
+                    }
+                ]
+            }
+        },
+        "green" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:green_shulker_box"
+                    }
+                ]
+            }
+        },
+        "light_blue" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_blue_shulker_box"
+                    }
+                ]
+            }
+        },
+        "light_grey" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:light_gray_shulker_box"
+                    }
+                ]
+            }
+		},
+        "lime" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:lime_shulker_box"
+                    }
+                ]
+            }
+		},
+        "magenta" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:magenta_shulker_box"
+                    }
+                ]
+            }
+		},
+        "orange" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:orange_shulker_box"
+                    }
+                ]
+            }
+		},
+        "pink" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:pink_shulker_box"
+                    }
+                ]
+            }
+		},
+        "purple" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:purple_shulker_box"
+                    }
+                ]
+            }
+		},
+        "red" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:red_shulker_box"
+                    }
+                ]
+            }
+		},
+        "white" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:white_shulker_box"
+                    }
+                ]
+            }
+		},
+        "yellow" :
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "item": "minecraft:yellow_shulker_box"
+                    }
+                ]
+            }
+		}
+    }
+}
